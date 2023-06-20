@@ -2,37 +2,32 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.productCard:hover {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (min-width: 1400px) {
+  .productCol {
+    width: 20% !important;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.price {
+  font-weight: 700;
+  font-size: 20px;
+}
+.priceMonth {
+  background-color: #ffd740;
+  border-radius: 5px;
+  color: black;
+  display: inline-block;
+  padding: 2px 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.title {
+  font-size: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.productCard .btn {
+  display: block;
 }
